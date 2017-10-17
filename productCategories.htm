@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Coop's One Stop Lollipop Shop</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="images/lollipop_thumb.png" />
+	<link href="css/categories.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<div class="row">
+		<div class="col-lg-2">
+		</div>
+		<section class="col-lg-8">
+			<header>
+				<img src="images/lollipop_moving.gif" alt="Lolipop">
+
+				<h1>Coop's One Stop Lollipop Shop</h1>
+
+				<h2>Buy my lollipops</h2>
+				<nav class="navbar">
+					<ul id="nav">
+						<li><a href="main.htm"><i class="fa fa-home"></i> Home</a></li>
+						<li><a href="productCategories.htm"><i class="fa fa-gift"></i> Products</a></li>
+						<li><a href="employeeOfTheMonth.htm"><i class="fa fa-user"></i> Employee of the Month</a></li>
+						<li><a href="email.htm"><i class="fa fa-envelope"></i> Join Email</a></li>
+						<li><a href="aboutUs.htm"><i class="fa fa-users"></i> About Us</a></li>
+						<li><a href="location.htm"><i class="fa fa-map-pin"></i> Location</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="row">
+				<div class="sidebar col-lg-3">
+					<h2 id="productCata">Product Categories</h2>
+					<ul id="side_menu">
+						<li><a href="productCategories.htm">Jumbo Lollipops</a></li>
+						<li><a href="productCategories.htm">Filled Lollipops</a></li>
+						<li><a href="productCategories.htm">Lollipops</a></li>
+					</ul>
+				</div>
+				<div class="main col-lg-9">
+					<table id="products">
+						<caption>Product List</caption>
+						<colgroup>
+							<col class="product" />
+							<col class="desc" />
+							<col class="price" />
+						</colgroup>
+						<tr>
+							<th>Categories</th>
+							<th>Description</th>
+							<th>Price</th>
+						</tr>
+						<tr>
+							<th>Giant Lollipops</th>
+							<td><a href="products/jumbo_swirly_pop.html">Jumbo 24oz Swirly Pop</a></td>
+							<td>$9.99</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="products/jumbo_unicorn_pop.html">Jumbo 18" Unicorn Pop</a></td>
+							<td>$2.99</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="products/jumbo_lollipop.html">3lb Jumbo Lollipop</a></td>
+							<td>$24.99</td>
+						</tr>
+						<tr>
+							<th>Filled Lollipops</th>
+							<td><a href="products/tootsie_pop.html">9 Pack Tootsie Pops</a></td>
+							<td>$2.99</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="products/blow_pop.html">12 Pack Super Blow Pops</a></td>
+							<td>$3.99</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="products/jolly_pop.html">9 Pack Jolly Rancher Pops</a></td>
+							<td>$3.59</td>
+						</tr>
+						<tr>
+							<th>Lollipops</th>
+							<td><a href="products/ball_pop.html">Kerr's Ball Pops, 45 Count</a></td>
+							<td>$9.99</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="products/pops.html">Kerr's Lollypops, 38 Count</a></td>
+							<td>$6.99</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="products/sour_pop.html">Kerr's Sour Pops, 50 Count</a></td>
+							<td>$7.99</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="main col-lg-3">
+				</div>
+				<div class="main fixit col-lg-9">
+					<div id="carousel" class="carousel">
+						<div id="left_button" class="button_panel"><img src="images/left.jpg" alt=""></div>
+						<div id="display_panel"> 
+							<ul id="image_list">
+								<li><a href="products/blow_pop.html"><img id="products" src="resized/blow_pop.png" alt="12 Pack Super Blow Pops"></a></li>
+								<li><a href="products/jolly_pop.html"><img id="products" src="resized/jolly_pop.png" alt="9 Pack Jolly Rancher Pops"></a></li>
+								<li><a href="products/jumbo_lollipop.html"><img id="products" src="resized/jumbo_pop.png" alt="3lb Jumbo Lollipop"></a></li>
+								<li><a href="products/jumbo_swirly_pop.html"><img id="products" src="resized/jumbo_swirl.png" alt="Jumbo 24oz Swirly Pop"></a></li>
+								<li><a href="products/ball_pop.html"><img id="products" src="resized/kerrs_ball_pop.png" alt="Kerr's Ball Pops, 45 Count"></a></li>
+								<li><a href="products/pops.html"<img id="products" src="resized/kerrs_pops.png" alt="Kerr's Lollypops, 38 Count"></a></li>
+								<li><a href="products/sour_pop.html"><img id="products" src="resized/kerrs_sour_pop.png" alt="Kerr's Sour Pops, 50 Count"></a></li>
+								<li><a href="products/tootsie_pop.html"><img id="products" src="resized/tootsie_pop.png" alt="9 Pack Tootsie Pops"></a></li>
+								<li><a href="products/jumbo_unicorn_pop.html"><img id="products" src="resized/unicorn_pop.png" alt='Jumbo 18" Unicorn Pop'></a></li>
+							</ul>
+						</div>
+						<div id="right_button" class="button_panel"><img src="images/right.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+			<!-- FOOTER -->
+			<div class="row">
+				<footer>
+						<p>(c) 2015 Chance Cooper</p>
+				</footer>
+			</div>
+		</section>
+		<div class="col-lg-2">
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.highlight.js"></script>
+    <script src="js/carousel.js"></script>
+	<script src="js/navbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+html {
+	cursor: url("../images/foo6.cur"), default;
+}
+
+a:hover {
+	cursor: url("../images/foo6.cur"), default;
+}
+
+header img {
+	float: left;
+}
+
+footer {
+	background-color: #C40D07;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+section {
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 10px;
+}
+
+body {
+	background-image: url("../images/lollipopBG.jpg");
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 250%;
+	text-indent: 25px;
+	color: #C40D07;
+	text-shadow: 2px 2px 2px black;
+	font-style: italic;
+}
+header h2 {
+	font-size: 125%;
+	text-indent: 25px;
+}
+
+.jumbotron {
+	background-image: url("../images/lollipopwhat.gif");
+	background-size: cover;
+	color: white;
+	-webkit-text-stroke: 2px black;
+	text-indent: 25px;
+}
+
+.navbar  ul {
+text-align: center;
+background-color:  #C40D07;
+}
+
+.navbar li {
+	display: inline-block;
+	float: none;
+	vertical-align:top;
+}
+
+
+
+#map{
+	height: 500px;
+	width: 500px;
+	margin: 10px;
+}
+
+/*
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+*/
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.sidebar li {
+	display: block;
+	padding: 3px 10px 3px 10px;
+	background-color: #C40D07;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+
+.sidebar li a {
+    font-weight: bold;
+	color: white;
+}
+/*
+.sidebar a:link {
+	color: white;
+}
+.sidebar a:visited { 
+    color: white; 
+}
+*/
+.sidebar a:hover {
+	color:white;
+	text-decoration: none;
+} 
+.sidebar a:focus { 
+	color: white;
+	text-decoration: none;
+}

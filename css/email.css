@@ -1,0 +1,159 @@
+html {
+	cursor: url("../images/foo6.cur"), default;
+}
+
+a:hover {
+	cursor: url("../images/foo6.cur"), default;
+}
+
+header img {
+	float: left;
+}
+
+footer {
+	background-color: #C40D07;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+section {
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 10px;
+}
+
+body {
+	background-image: url("../images/lollipopBG.jpg");
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 250%;
+	text-indent: 25px;
+	color: #C40D07;
+	text-shadow: 2px 2px 2px black;
+	font-style: italic;
+}
+header h2 {
+	font-size: 125%;
+	text-indent: 25px;
+}
+
+.navbar  ul {
+text-align: center;
+background-color:  #C40D07;
+}
+
+.navbar li {
+	display: inline-block;
+	float: none;
+	vertical-align:top;
+}
+
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.sidebar li {
+	display: block;
+	padding: 3px 10px 3px 10px;
+	background-color: #C40D07;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+
+.sidebar li a {
+    font-weight: bold;
+	color: white;
+}
+/*
+.sidebar a:link {
+	color: white;
+}
+.sidebar a:visited { 
+    color: white; 
+}
+*/
+.sidebar a:hover {
+	color:white;
+	text-decoration: none;
+} 
+.sidebar a:focus { 
+	color: white;
+	text-decoration: none;
+}
+/* Forms */
+fieldset {
+	margin: 10px auto 10px auto;
+	background-color: rgb(240,240,240);
+	line-height: 1.6em;
+	padding: 15px;
+	border: 1px solid black;
+}
+
+legend {
+	font-style: italic;
+	color: black;
+}
+
+.title {
+	float: left;
+	clear: both;
+}
+
+.email {
+	float: left;
+	clear: both;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+.submit {
+	text-align: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+input[type="text"]{
+display: block;
+	border: 1px solid black;
+	padding: 2px;
+	outline: none;
+	clear: left;
+}
+
+input[type="email"]{
+	display: block;
+	border: 1px solid black;
+	padding: 2px;
+	outline: none;
+	clear: left;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover{
+	background-color: #d0e2f0;
+	border: 1px solid #999999;
+}
+
+input[type="submit"]{
+	border: 1px solid #d0e2f0;
+	background-color: #C40D07;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+	clear: left;
+}
+
+input[type="submit"]:hover{
+	border: 1px solid #d0e2f0;
+	background-color: #0753c4;
+	cursor: pointer;
+}
+
